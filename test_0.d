@@ -6,7 +6,7 @@ bool newln() {writeln("\n"); return 0;};
 int main()
 {
     writeln("-- hesap makinesi -- \n");
-    writeln("topla + \ncikar - \ncarp * \nbol / \ncevap icin = \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
+    writeln("topla + \ncikar - \ncarp * \nbol / \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
     int sayi_1 = 0, sayi_2 = 0;
     string islem, get;
 
@@ -17,7 +17,7 @@ int main()
         else if(get == "clear\n") {
             spawnShell("cls").wait;
 			writeln("-- hesap makinesi -- \n");
-			writeln("topla + \ncikar - \ncarp * \nbol / \ncevap icin = \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
+			writeln("topla + \ncikar - \ncarp * \nbol / \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
             goto exit;
 		};
         sayi_1 = parse!int(get);
@@ -27,7 +27,7 @@ int main()
         else if(get == "clear\n") {
             spawnShell("cls").wait;
 			writeln("-- hesap makinesi -- \n");
-			writeln("topla + \ncikar - \ncarp * \nbol / \ncevap icin = \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
+			writeln("topla + \ncikar - \ncarp * \nbol / \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
             goto exit;
 		};
         sayi_2 = parse!int(get);
@@ -37,7 +37,7 @@ int main()
         else if(islem == "clear\n") {
             spawnShell("cls").wait;
 			writeln("-- hesap makinesi -- \n");
-			writeln("topla + \ncikar - \ncarp * \nbol / \ncevap icin = \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
+			writeln("topla + \ncikar - \ncarp * \nbol / \ncikmak icin = exit \nekrani temizlemek icin = clear \n");
             goto exit;
 		};
         if (islem == "+\n" || islem == "topla\n")
