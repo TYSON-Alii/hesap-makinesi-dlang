@@ -1,1 +1,1 @@
-## hesap-makinesi-dlang
+## D Dilinde Hesap Makinesi
